@@ -13,8 +13,8 @@ int main() {
     << setw(7) << "y" << " |" << endl;
   cout << "---------------------------" << endl;
   x = xp;
+  A = ((2 + x) / x * x) + 1;
   while (x < xk) {
-    A = ((2 + x) / x * x) + 1;
     if (x < 0)
       B = x * x * x - 2 * x * x * x * x;
     else
