@@ -21,7 +21,6 @@ int main() {
       if (x >= 0 && 2 >= x)
         B = (abs(x) + exp(x)) * (abs(x) + exp(x)) * (abs(x) + exp(x));
       else
-        if (x > 2)
           B = 4 * cos(x * x - 2);
     y = A + B;
             cout << "|" << setw(7) << setprecision(2) << x
